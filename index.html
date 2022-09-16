@@ -30,7 +30,7 @@
         </section>
         <nav>
           <ul class="navigation">
-            <li><a class="agency links-now" href="#">Agencja</a></li>
+            <li><a class="agency links-now" href="index.html">Agencja</a></li>
             <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
             <li><a class="contacts" href="#">Kontakty</a></li>
           </ul>
@@ -58,7 +58,7 @@
     <main>
       <section class="main-section container">
         <h1 class="main-head">EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU</h1>
-        <button class="make-order" type="button">Zamów usluge</button>
+        <button class="make-order" type="button" data-modal-open>Zamów usluge</button>
       </section>
       <section class="second section">
         <div class="container">
@@ -126,7 +126,7 @@
                   width="370"
                   height="294"
                 />
-                <figcaption class="what-we-do-explane">Aplikacje Komputerowe</figcaption>
+                <figcaption class="what-we-do-explane"><p>Aplikacje Komputerowe</p></figcaption>
               </figure>
             </li>
             <li>
@@ -137,7 +137,7 @@
                   width="370"
                   height="294"
                 />
-                <figcaption class="what-we-do-explane">Aplikacje Mobilne</figcaption>
+                <figcaption class="what-we-do-explane"><p>Aplikacje Mobilne</p></figcaption>
               </figure>
             </li>
             <li>
@@ -148,7 +148,7 @@
                   width="370"
                   height="294"
                 />
-                <figcaption class="what-we-do-explane">Rozwiązania Graficzne</figcaption>
+                <figcaption class="what-we-do-explane"><p>Rozwiązania Graficzne</p></figcaption>
               </figure>
             </li>
           </ul>
@@ -547,5 +547,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
