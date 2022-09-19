@@ -506,7 +506,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
   text-decoration: none;
-  transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email-foot:hover {
   color: #2196f3;
@@ -522,6 +522,7 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =====================bottom icons============== */
 .footer-header {
